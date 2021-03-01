@@ -1,4 +1,4 @@
-package com.top.lib.dbconnection;
+package com.top.lib.db.connection;
 
 import java.sql.Connection;
 import java.sql.SQLException;

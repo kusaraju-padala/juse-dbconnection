@@ -16,9 +16,16 @@
 		<log4j-core.version>2.12.1</log4j-core.version>
 		<hikariCP.version>3.4.0</hikariCP.version>
 		<mysql-connector.version>8.0.18</mysql-connector.version>
+
+		<jusenews-model.version>0.0.1-SNAPSHOT</jusenews-model.version>
 	</properties>
 
 	<dependencies>
+		<dependency>
+			<groupId>com.jusenews.lib</groupId>
+			<artifactId>jusenews-model</artifactId>
+			<version>${jusenews-model.version}</version>
+		</dependency>
 		<dependency>
 			<groupId>org.apache.logging.log4j</groupId>
 			<artifactId>log4j-core</artifactId>
